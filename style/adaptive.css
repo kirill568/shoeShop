@@ -1,0 +1,333 @@
+@media(max-width: 1540px) {
+	.featureNav {
+		display: none;
+	}
+}
+
+@media(max-width: 1420px) {
+	.collectionPhoto::before {
+		transform: translate(50%, 50%);
+	}
+}
+
+@media(max-width: 1400px) {
+	.blog .post {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding: 0;
+	}
+
+	.blog .postPhoto::before {
+		content: none;
+	}
+
+	.blog .postPhoto::after {
+		content: none;
+	}
+
+	.blog .postPhoto {
+		box-shadow: none;
+	}
+
+	.blog .postText {
+		align-items: center;
+		margin-left: 0;
+	}
+	.navBlog {
+		align-self: center;
+	}
+
+	.blog .prePost, .nextPost {
+		width: 20px;
+		height: 20px;
+	}
+
+	.blog .navBlogArrows button {
+		margin-right: 30px;
+	}
+
+	.cardText {
+		padding: 20px;
+	}
+}
+
+@media (max-width: 1300px) {
+	.collectionPhoto::before {
+		transform: translate(38%, 50%);
+	}
+}
+
+@media (max-width: 1226px) {
+	.collectionPhoto::before {
+		transform: translate(29%, 50%);
+	}
+}
+
+@media (max-width: 1200px) {
+	.collectionPhoto::before {
+		content: none;
+	}
+	.containerCollection {
+		flex-direction: column;
+	}
+
+	.collectionDescription {
+		text-align: center;
+		padding-bottom: 50px;
+	}
+
+	.collectionButton {
+		margin: 0 auto;
+	}
+
+	.containerPopular {
+		text-align: center;
+	}
+
+	.wrapItems {
+		flex-direction: column;
+		align-items: center;
+		padding: 0 15px;
+	}
+
+	.popularShoes .item {
+		max-width: 500px;
+		width: 100%;
+		height: 535px;
+	}
+
+	.item .itemPhoto {
+		width: 100%;
+		height: 406px;
+	}
+
+	.itemSale {
+		text-align: center;
+		margin-top: 0px;
+	}
+
+	.itemSale span {
+		font-size: 18px;
+	}
+
+	.itemPhoto::before {
+		width: 100%;
+		height: 100%;
+	}
+
+	.containerFeatures {
+		max-width: 900px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 1190px) {
+	.cardText {
+		position: relative;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		transform: none;
+		text-align: center;
+		padding-bottom: 80px;
+	}
+
+	.cardPhoto {
+		max-width: 685px;
+	}
+
+	.cardPhoto img {
+		max-width: 685px;
+		width: 100%;
+	}
+
+	.containerAbout {
+		display: flex;
+		flex-direction: column-reverse;
+		align-items: center;
+	}
+
+	.aboutButton {
+		align-self: center;
+		margin-top: 50px;
+	}
+}
+
+@media (max-width: 1055px) {
+	.footerTop .logo {
+		position: absolute;
+		top: 50px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	footer .footerTop {
+		position: relative;
+		flex-direction: column;
+		padding-top: 100px;
+		align-items: center;
+	}
+
+	.footerTop p {
+		font-size: 20px;
+	}
+
+	.partOne {
+		margin-top: 40px;
+		max-width: 426px;
+		width: 100%;
+	}
+
+	.partOne a {
+		font-size: 18px;
+	}
+
+	.partOne li {
+		margin-bottom: 5px;
+	}
+
+	footer .partOne ul {
+		width: 100%;
+	}
+
+	.partThree {
+		margin-top: 40px;
+		align-items: center;
+	}
+
+}
+
+@media (max-width: 900px) {
+	header .subtitle::before {
+		width: 250px;
+	}
+
+	header .subtitle {
+		width: 250px;
+	}
+
+	.containerFeatures {
+		max-width: 600px;
+		width: 100%;
+	}
+}
+
+@media (max-width: 850px) {
+	.navMenuBigDisplay {
+		display: none;
+	}
+}
+
+@media (max-width: 630px) {
+	.collectionDescription {
+		max-width: 500px;
+	}
+
+	.containerFeatures {
+		max-width: 500px;
+	}
+
+	.posts {
+		padding: 0 15px;
+	}
+}
+
+@media (max-width: 530px) {
+	.collectionDescription {
+		max-width: 400px;
+	}
+
+	.containerFeatures {
+		max-width: 400px;
+	}
+
+	header .subtitle {
+		align-self: center;
+	}
+
+	.wrap {
+		background-size: contain;
+	}
+}
+
+@media (max-width: 490px) {
+	.bottomHeader {
+		flex-direction: column;
+	}
+
+	.social {
+		flex-direction: row;
+		width: 100%;
+	}
+
+	.bottomHeader p {
+		writing-mode: horizontal-tb;
+		transform: rotate(0deg);
+		width: 100%;
+		text-align: center;
+		align-self: center;
+		padding-bottom: 50px;
+		color: #444444;
+	}
+
+	footer .form {
+		flex-direction: column;
+	}
+
+	.buttonSubmit {
+		width: 100%;
+		margin: 20px 0;
+	}
+}
+
+@media (max-width: 400px) {
+	.collectionDescription {
+		max-width: 300px;
+	}
+
+	.containerFeatures {
+		max-width: 300px;
+	}
+
+	header .subtitle {
+		align-self: center;
+	}
+
+	.navBlog {
+		margin-top: 40px;
+	}
+}
+
+@media (max-width: 377px) {
+	footer .partOne ul {
+		flex-wrap: nowrap;
+		height: 100%;
+		align-items: center;
+	}
+}
+
+@media (max-width: 350px) {
+	header .subtitle::before {
+		width: 220px;
+	}
+
+	header .subtitle {
+		width: 220px;
+	}
+}
+
+@media (max-width: 300px) {
+	.collectionDescription {
+		max-width: 200px;
+	}
+
+	.containerFeatures {
+		max-width: 200px;
+	}
+
+	footer .partThree {
+		max-width: 290px;
+		width: 100%;
+	}
+}
